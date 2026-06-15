@@ -2,15 +2,10 @@
 % Least Squares Clustering (LSC) Algorihtm on Lung Cancer dataset.
 % ====================================================================== %
 
-% ========================= Acknowledgement =============================
-% This code is written by Mr. Ye Tian under Dr. Ming-Jun Lai's supervision 
-% in March 2024. It is further modified by Dr. Ming-Jun Lai and Dr. Zhaiming Shen
-% in June 2024.
-% =======================================================================
 
 clear, close all, clc, warning off
 
-load("weightedLungCancerAdj_LN2.mat"); %based on the LN method from Dr. Ming-Jun Lai.
+load("weightedLungCancerAdj_LN2.mat");
 
 %uAw = unweight_adj(LN_Aw); 
 %or use the following
